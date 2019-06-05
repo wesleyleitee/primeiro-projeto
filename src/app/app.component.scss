@@ -1,0 +1,28 @@
+
+      body {
+        background-color: tan;
+        color: black;
+      }
+      h1{
+        color:purple;            
+     }
+
+      @media screen and (max-width: 992px) {
+        body {
+          background-color: blue;
+          color: white;
+        }
+        h1{
+            color: blue;            
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        body {
+          background-color: olive;
+          color: white;
+        }
+        h1{
+            color:orange;            
+        }
+      }
